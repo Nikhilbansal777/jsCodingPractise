@@ -36,18 +36,10 @@ let characters = [
     }
 ];
 
-const a = () => {
-   return characters.sort((a, b) => {
-        let first = a.name.toLowerCase();
-        let second = b.name.toLowerCase();
-        if (first < second) {
-            return -1
-        } else {
-            return 1
-        }
-        return 0
-    })
-};
 
-a();
-console.log(characters);
+const a = () => {
+    return characters.filter(character => {
+        return character.gender == 'Male';
+    });
+};
+console.log(a());
