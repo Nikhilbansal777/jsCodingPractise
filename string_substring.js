@@ -1,15 +1,19 @@
 let s = "hi there welcome to javascript practice questions";
-let str = "tbo";
+let str = "to";
 let arr = s.split(" ");
 
 function substring(arr) {
+    let found = false;
     arr.map(item => {
-        if (item.includes(str)) {
-            console.log('yes');
-        } else {
-            console.log("no");
-        }
+        if (item === str) {
+            found = true
+        } 
     });
+    if (!found) {
+        console.log("not found")
+    } else {
+        console.log("found")
+    }
 }
 
 substring(arr);
