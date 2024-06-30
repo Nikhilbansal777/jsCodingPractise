@@ -12,3 +12,7 @@ const obj = {
 };
 obj.showThis(); // window object
 
+console.log(3 ** 2); console.log(5 + "5" - 3);
+console.log(7 * undefined);
+console.log(3 + null); console.log("s" + null); console.log(12 / null); console.log(5 * null);
+console.log([1, 2] - [3, 4]);
