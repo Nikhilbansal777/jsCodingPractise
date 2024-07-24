@@ -19,7 +19,7 @@ const node = {
 
 // node1, node2, node3, node4.
 
-function levelOrder(node) {
+function depth(node) {
     let queue = [node];
     while (queue.length > 0) {
         let currentNode = queue.shift();
@@ -31,4 +31,4 @@ function levelOrder(node) {
     }
 }
 
-levelOrder(node);
+depth(node);
