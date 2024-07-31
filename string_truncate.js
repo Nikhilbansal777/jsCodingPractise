@@ -1,4 +1,5 @@
 let s = "The quick brown fox jumps over the lazy dog";
+//output - The quick brown fox
 
 let a = s.split(" ");
 let b = []

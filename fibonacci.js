@@ -17,4 +17,4 @@ function fib(num) {
 
 }
 
-console.log(fib(15));
+console.log(fib(8));

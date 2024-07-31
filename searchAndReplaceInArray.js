@@ -6,7 +6,7 @@ function presence() {
     let found = false;
     a.forEach((item, index) => {
         if (item === num) {
-            a.splice(index, 1);
+            a.splice(index, 1, 555);
             found = true;
         }
     });

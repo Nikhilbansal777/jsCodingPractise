@@ -1,5 +1,7 @@
 let s = "hi there welcome to javascript practice questions";
 let str = "to";
+// check if substring is present in string or not
+// output - found 
 let arr = s.split(" ");
 
 function substring(arr) {
