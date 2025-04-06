@@ -1,5 +1,5 @@
 let str = "This_is_a_string";
-// output - This is a string;
+// output - This Is A String;
 
 let string = str.split('_');
 let str1 = [];
