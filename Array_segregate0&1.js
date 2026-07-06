@@ -1,7 +1,7 @@
 let a = [0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1];
 // output [0,0,0,0,0,0,0,1,1,1,1,1,1]
 function segregate(a) {
-    let start = a[0];
+    let start = 0;
     let end = a.length - 1;
     let temp;
     while (start < end) {
