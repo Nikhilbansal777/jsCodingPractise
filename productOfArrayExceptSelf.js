@@ -15,15 +15,20 @@ console.log(result)
 
 // 2 pointer 
 let left = 0;
-let right = a.length - 1
-let result = []
-while(left < right){
+let right = a.length-1
 
-    let product = 1;
+let result1 = new Array(a.length).fill(1);
+let leftProduct = 1;
+let rightProduct = 1;
 
-    if(a[left]< a[right]){
-        left++
-    }else {
-        right--
-    }
+while(left < a.length){
+    result1[left] *= leftProduct;
+    leftProduct *= a[left]
+
+    result1[right] *= rightProduct;
+    rightProduct *= a[right]
+    left++;
+    right--
 }
+
+console.log(result1)
